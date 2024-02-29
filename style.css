@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Neue";
+}
+
+body #preloader {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: whitesmoke;
+}
+body #preloader img {
+  height: 90px;
+  width: 90px;
+}
+body #preloader h1 {
+  font-size: 3rem;
+}
+body .mainsection {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+body .mainsection .bodyContent {
+  display: flex;
+}
+body .mainsection header {
+  width: 100%;
+  background-color: #ffff99;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+body .mainsection header .logo {
+  display: flex;
+  align-items: center;
+}
+body .mainsection header img {
+  width: 60px;
+  height: 60px;
+}
+body .mainsection header .logo h1 {
+  font-size: 2.5rem;
+}
+body .mainsection header .buttonOne {
+  padding: 0.7rem 1.4rem;
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+}
+body .mainsection header .buttonTwo {
+  padding: 0.7rem 1.4rem;
+  background-color: darkgreen;
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+}
+body .mainsection aside {
+  background-color: whitesmoke;
+  width: 25%;
+  margin: 5px;
+  padding: 1rem;
+  max-height: 80vh;
+  border: 3px solid black;
+  overflow-y: auto;
+}
+body .mainsection aside .result {
+  background-color: #ffff99;
+  padding: 0.5rem 1rem;
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 5px 5px 5px #888888;
+}
+.contentPlace {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentPlace img {
+  width: 40%;
+  height: auto;
+  margin-left: 3rem;
+}
+.contentPlace .formClass {
+  width: 50%;
+  height: auto;
+  background-color: #ffff99;
+}
+.contentPlace .fromClass .inputForm {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  background-color: #ffff99;
+}
+.contentPlace .inputForm .createNote {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding-left: 1.5rem;
+}
+.contentPlace .inputForm button {
+  width: 20%;
+  margin: 1.5rem;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 1rem;
+}
+.contentPlace .inputForm h2 {
+  margin: 1.5rem;
+  margin-bottom: 0;
+}
+.contentPlace .inputForm .createNote #createNoteTitle {
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #ffff99;
+}
+.contentPlace .inputForm .createNote #createNoteContent {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #ffff99;
+}
+.delSingle {
+  padding: 0.4rem 1rem;
+  background-color: orangered;
+  margin: 0.2rem;
+  margin-left: 0;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.edtSingle {
+  padding: 0.4rem 1rem;
+  background-color: darkgreen;
+  margin: 0.2rem;
+  margin-left: 0;
+  border-radius: 5px;
+  color: whitesmoke;
+}
